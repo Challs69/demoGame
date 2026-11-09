@@ -1,0 +1,141 @@
+/* universal */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+button{
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    width: 200px;
+}
+
+body{
+    background-color: #FFF2B4;
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* header */
+
+.headerContainer{
+    padding: 8px;
+    background-color: #15370D;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid rgb(4, 199, 4);
+}
+
+h1{
+    font-weight: 600;
+    padding: 16px;
+}
+
+.rstBtn button{
+    background-color: #E5CD82;
+    border-radius: 16px;
+    padding: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* game */
+
+.game{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* info container */
+
+.infoContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
+    max-width: 100%;
+}
+
+/* human */
+
+.human{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.human img{
+    width: 200px;
+    max-width: 100%;
+}
+
+/* vs */
+
+.vs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.vs img{
+    width: 100px;
+    max-width: 100%;
+}
+
+/* computer */
+
+.computer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.computer img{
+    width: 200px;
+    max-width: 100%;
+}
+
+/* button container */
+
+.buttonsContainer{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2{
+    padding: 16px;
+}
+
+.buttons{
+    display: flex;
+    justify-content:center;
+    gap:16px ;
+}
+
+.buttons img{
+    width: 100px;
+    max-width: 100%;
+}
+
+.buttons button{
+    background-color: #728E6D;
+    border-radius: 16px;
+    padding: 8px;
+    
+}
