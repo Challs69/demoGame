@@ -141,7 +141,7 @@ paperBtn.addEventListener("click", function(){
 });
 
 scissorBtn.addEventListener("click", function(){
-    humanSelection = "scissor";
+    humanSelection = "scissors";
     let computerSeletion = getComputerChoice();
     playRound(humanSelection,computerSeletion);
 });
@@ -223,7 +223,7 @@ function playRound(humanChoice,computerChoice){
                 
             console.log("its a tie! good luck");
             tieScore += 1;
-            tieScoreSpan.textContent = tieScore ;
+            tieScoreSpan.textContent = tieScore;
                 
         }
 };
